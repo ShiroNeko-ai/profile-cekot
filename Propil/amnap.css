@@ -1,0 +1,52 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: rgb(165, 165, 162);
+}
+
+.container{
+    padding: 35px;
+}
+
+.displaybox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayend{
+    display: flex;
+    justify-content: end;
+}
+.artikel{
+    margin: 25px 0px;
+}
+.displayflex{
+    display: flex;
+}
+.collums{
+    width: 40%;
+    padding: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    width: 35%;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    display: flex;
+    
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box .flex img {
+    width: 130px;
+    height: 130px;
+}
+
